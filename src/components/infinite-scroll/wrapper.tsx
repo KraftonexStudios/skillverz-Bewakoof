@@ -28,7 +28,7 @@ export const InfiniteMoving = ({
 
   useEffect(() => {
     addAnimation();
-  }, []);
+  }, );
 
   const [start, setStart] = useState(false);
 

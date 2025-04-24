@@ -8,8 +8,8 @@ const AnimatedFooter: React.FC = () => {
       <div className="w-screen h-[650px] -mb-8">
 
         <Helmet >
-          <script src="/script/box-2d.js" />
-          <script src="/script/gravity.js" />
+          <script src="/script/box-2d.js" defer />
+          <script src="/script/gravity.js" defer />
         </Helmet>
         <iframe
           src="/script/index.html"
