@@ -69,7 +69,7 @@ const GoodiesSection = () => {
           variants={variants}
           transition={{ duration: 0.8, delay: 0.8 }}
         >
-          WE'RE WORKING ON
+          WE&apos;RE WORKING ON
         </motion.p>
         <motion.p
           className="text-[18px] font-semibold tracking-[5px]"

@@ -1,5 +1,11 @@
 {
   "extends": "next/core-web-vitals",
+  "env": {
+    "browser": false, // Disable browser globals like `document` and `window`
+    "node": true      // Enable Node.js globals
+  },
+  "rules": {
+    "no-restricted-globals": ["error", "event", "fdescribe"]
   
-  
+  }
 }
