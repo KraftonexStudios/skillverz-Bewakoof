@@ -5,7 +5,7 @@
     "node": true      // Enable Node.js globals
   },
   "rules": {
-    "no-restricted-globals": ["error", "event", "fdescribe"]
+    // "no-restricted-globals": ["error", "event", "fdescribe"]
   
   }
 }

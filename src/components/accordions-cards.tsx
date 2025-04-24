@@ -2,8 +2,13 @@
 import Image from "next/image";
 import React, { useRef, useState } from "react";
 import dottedLine from "../../public/svgs/dotted-line.svg";
-import Lottie from "react-lottie-player";
+// import Lottie from "react-lottie-player";
 import { motion, useInView } from "framer-motion";
+import dynamic from 'next/dynamic';
+
+const Lottie = dynamic(() => import('react-lottie-player'), {
+  ssr: false,
+});
 
 import { doubt, zip, smart, wink } from "../../public/assets";
 import { useScroll, useTransform } from "framer-motion";
